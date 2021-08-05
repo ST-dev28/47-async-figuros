@@ -1,17 +1,22 @@
 class Figura {
     static randomFiguros(amount) {
-        let dimensions = [];
-        for (let i = 1; i <= amount; i++) {
-            dimensions.push({ width: Figura.random(), height: Figura.random() })
+        const list = [];
+
+        for (let i = 0; i < amount; i++) {
+            const width = Figura.random();
+            const height = Figura.random();
+            list.push({ width, height });
         }
-        return dimensions;
+
+        return list;
+    }
+
+    static random() {
+        return Math.floor(Math.random() * 10) + 1;
     }
 
     static size(width, height) {
-
-    }
-    static random() {
-        return Math.floor(Math.random() * 10) + 1;
+        return width * height;
     }
 }
 
