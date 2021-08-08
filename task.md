@@ -9,7 +9,7 @@ Sugeneruotu figuru krastiniu dydziai turi buti atsitiktiniai ir intervale nuo 1 
 Sukurti failus, kiekvienai figurai:
 
 - irasyti i `figuros` folderi
-- failo pavadinimo schema: figura-[index].json
+- failo pavadinimo schema: figura-[index].json   (index - nurodo, kuris tai irasas sarase)
 - index yra numeris, kelinta tai figura `figuruDydziai` kintamajame
 
 Perskaitome failus ir juos atnaujiname papildomomis savybemis `plotas` ir `hash`.

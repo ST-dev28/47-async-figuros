@@ -14,6 +14,7 @@ class Figura {
     static random() {
         return Math.floor(Math.random() * 10) + 1;
     }
+    // Math.random grazina reiksmes: 0 ... 0.99999 ir 0 ... 9.99999
 
     static size(width, height) {
         return width * height;
